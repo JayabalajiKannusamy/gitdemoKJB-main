@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary   implicit_wait=60
 #Library    AppiumLibrary   - NOTE: IT'S ONLY FOR MOBILE APP TESTING
-Test Setup   Open Browser  https://codexstage.azurewebsites.net/  edge
+Test Setup   Open Browser  https://codexstage.azurewebsites.net/  chrome
 Suite Teardown   Close Browser
 
 #---------------------------------------------------------------
